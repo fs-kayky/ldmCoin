@@ -1,6 +1,7 @@
 package com.fskayky.lioncoin;
 
 import com.fskayky.lioncoin.block.ModBlocks;
+import com.fskayky.lioncoin.item.ModCreativeModeTabs;
 import com.fskayky.lioncoin.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -31,6 +32,7 @@ public class LionCoin {
     public LionCoin(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -49,10 +51,13 @@ public class LionCoin {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.COIN);
             event.accept(ModItems.NIOBIO);
+            event.accept(ModItems.NIOBIO_RAW);
         }
 
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.NIOBIO_BLOCK);
+            event.accept(ModBlocks.NIOBIO_ORE);
+            event.accept(ModBlocks.DEEPSLATE_NIOBIO_ORE);
         }
 
     }

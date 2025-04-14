@@ -1,7 +1,11 @@
 {
   "item.lioncoin.lioncoin": "Lion's Coin",
   "item.lioncoin.niobio": "Nióbio",
+  "item.lioncoin.niobio_raw": "Raw Nióbio",
 
+  "block.lioncoin.niobio_block": "Block of Nióbio",
+  "block.lioncoin.niobio_ore": "Nióbio Ore",
+  "block.lioncoin.deepslate_niobio_ore": "Deepslate Nióbio Ore",
 
-  "block.lioncoin.niobio_block": "Nióbio Ore"
+  "creativetab.lioncoin.lioncoin_items": "Lion Coin's"
 }

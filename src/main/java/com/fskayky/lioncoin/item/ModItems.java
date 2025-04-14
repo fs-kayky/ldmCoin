@@ -12,6 +12,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> COIN = ITEMS.register("lioncoin", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> NIOBIO = ITEMS.register("niobio", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NIOBIO_RAW = ITEMS.register("niobio_raw", () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
