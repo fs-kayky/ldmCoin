@@ -25,8 +25,8 @@ public class ModBlocks {
             .sound(SoundType.METAL)));
 
     public static final DeferredBlock<Block> NIOBIO_ORE = registerBlock("niobio_ore",
-            () -> new DropExperienceBlock(UniformInt.of(1, 3), BlockBehaviour.Properties.of()
-            .strength(3.0f, 3.0f)
+            () -> new DropExperienceBlock(UniformInt.of(2, 5), BlockBehaviour.Properties.of()
+            .strength(3.0f)
             .requiresCorrectToolForDrops()
             .sound(SoundType.STONE)));
 

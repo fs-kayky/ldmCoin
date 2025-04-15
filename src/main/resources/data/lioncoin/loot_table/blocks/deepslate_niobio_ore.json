@@ -26,11 +26,15 @@
                   }
                 }
               ],
-              "name": "lioncoin:blocks/deepslate_niobio_ore"
+              "name": "lioncoin:deepslate_niobio_ore"
             },
             {
               "type": "minecraft:item",
               "functions": [
+                {
+                  "count": 1,
+                  "function": "minecraft:set_count"
+                },
                 {
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:ore_drops",

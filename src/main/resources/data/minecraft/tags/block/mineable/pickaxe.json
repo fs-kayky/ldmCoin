@@ -1,8 +1,8 @@
 {
   "replace": false,
-  "value": [
-    "lioncoin:niobio_block",
+  "values": [
     "lioncoin:niobio_ore",
-    "lioncoin:deepslate_niobio_ore"
+    "lioncoin:deepslate_niobio_ore",
+    "lioncoin:niobio_block"
   ]
 }
